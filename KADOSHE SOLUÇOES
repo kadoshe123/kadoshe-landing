@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KADOSHE Soluções Empresarial</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0B1E3F;
+        color: white;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .header, .footer {
+        background-color: #0B1E3F;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .header h1 {
+        color: #FFD700;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .header p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .cta-button {
+        background-color: #FFD700;
+        color: #0B1E3F;
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .section {
+        padding: 50px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+    .section h2 {
+        color: #FFD700;
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .services, .testimonials {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .service-item, .testimonial-item {
+        background-color: #142D55;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+    }
+    button.submit-btn {
+        background-color: #FFD700;
+        color: #0B1E3F;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .footer p {
+        margin: 5px 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>KADOSHE Soluções Empresarial</h1>
+    <p>Excelência, ética e inovação para impulsionar o sucesso da sua empresa.</p>
+    <a class="cta-button" href="https://wa.me/553190755761" target="_blank">💬 Fale conosco no WhatsApp</a>
+</div>
+
+<div class="section">
+    <h2>✨ Por que escolher a KADOSHE?</h2>
+    <p>Somos especialistas em <strong>assessoria administrativa, contábil e consultoria empresarial</strong>, oferecendo soluções <strong>personalizadas</strong> para cada cliente. Nosso objetivo é <strong>simplificar processos, reduzir custos e potencializar resultados</strong> da sua empresa.</p>
+    <ul>
+        <li>📊 Gestão eficiente de negócios</li>
+        <li>⚖️ Assessoria contábil e jurídica</li>
+        <li>🧾 Cobrança administrativa profissional</li>
+        <li>💡 Consultoria estratégica e soluções personalizadas</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>🛠️ Serviços que transformam sua empresa</h2>
+    <div class="services">
+        <div class="service-item"><strong>Assessoria Contábil Completa</strong> – organização fiscal, obrigações legais e relatórios precisos.</div>
+        <div class="service-item"><strong>Consultoria Empresarial</strong> – planejamento estratégico e otimização de processos.</div>
+        <div class="service-item"><strong>Cobrança Administrativa</strong> – recuperação de crédito e gestão de inadimplência.</div>
+        <div class="service-item"><strong>Gestão de Documentos e Processos</strong> – controle eficiente e digitalização.</div>
+        <div class="service-item"><strong>Abertura e Regularização de Empresas</strong> – MEI, Simples Nacional e Lucro Presumido.</div>
+    </div>
+    <div style="text-align:center; margin-top:30px;">
+        <a class="cta-button" href="https://wa.me/553190755761" target="_blank">💬 Solicite seu atendimento agora</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>🌟 Clientes satisfeitos com nossos serviços</h2>
+    <div class="testimonials">
+        <div class="testimonial-item">
+            "A KADOSHE transformou a gestão da minha empresa! Profissionais altamente capacitados e atendimento personalizado." – João Silva
+        </div>
+        <div class="testimonial-item">
+            "Serviço de alta qualidade e atenção aos detalhes. Recomendo para qualquer empresa que queira crescer." – Maria Fernandes
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>📞 Vamos transformar sua empresa juntos!</h2>
+    <p>Entre em contato agora mesmo pelo WhatsApp ou preencha o formulário abaixo e nossa equipe retornará rapidamente.</p>
+    <div style="text-align:center; margin-bottom:20px;">
+        <a class="cta-button" href="https://wa.me/553190755761" target="_blank">💬 Fale no WhatsApp</a>
+    </div>
+    <form>
+        <div class="form-group">
+            <input type="text" name="nome" placeholder="Nome" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="E-mail" required>
+        </div>
+        <div class="form-group">
+            <textarea name="mensagem" placeholder="Mensagem / Serviço de interesse" rows="4" required></textarea>
+        </div>
+        <div style="text-align:center;">
+            <button type="submit" class="submit-btn">Enviar</button>
+        </div>
+    </form>
+</div>
+
+<div class="footer">
+    <p>KADOSHE Soluções Empresarial</p>
+    <p>Telefone: (31) 9075-5761</p>
+    <p>E-mail: suporteinformacaosuporte@gmail.com</p>
+</div>
+
+</body>
+</html>
